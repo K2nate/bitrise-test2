@@ -2,18 +2,16 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
 }
-
-configurations.all {
-    resolutionStrategy { force 'androidx.core:core-ktx:1.6.0' }
-}
-
+// add comment
+// add comment
+// add comment
 android {
     compileSdk 31
 
     defaultConfig {
         applicationId "com.example.bitrise_test2"
         minSdk 30
-        targetSdk 31
+        targetSdk 31g
         versionCode 1
         versionName "1.0"
 
